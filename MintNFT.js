@@ -14,7 +14,7 @@ const myNFT = [];
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT (name, price, description, author, network, fileType, orientation) {
+function mintNFT (name, price, description, author, network, fileType) {
     const NFT={
         name: name,
         price: price,
@@ -31,12 +31,12 @@ function mintNFT (name, price, description, author, network, fileType, orientati
 function listNFTs () {
     for(let i=1;i<=myNFT.length;i++){
         console.log("\nNFT "+i);
-        console.log("Name: "+myNFTcollection[i-1].name);
-        console.log("Price: "+myNFTcollection[i-1].price);
-        console.log("Description: "+myNFTcollection[i-1].description);
-        console.log("Author: "+myNFTcollection[i-1].author);
-        console.log("Network: "+myNFTcollection[i-1].network);
-        console.log("File Type: "+myNFTcollection[i-1].fileType);
+        console.log("Name: "+myNFT[i-1].name);
+        console.log("Price: "+myNFT[i-1].price);
+        console.log("Description: "+myNFT[i-1].description);
+        console.log("Author: "+myNFT[i-1].author);
+        console.log("Network: "+myNFT[i-1].network);
+        console.log("File Type: "+myNFT[i-1].fileType);
     }
 }
 
