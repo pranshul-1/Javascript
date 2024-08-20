@@ -47,20 +47,20 @@ function getTotalSupply() {
 
 // call your functions below this line
 mintNFT(
-    "Everydays: the First 5000 Days",
-    "69.3M",
-    "a collage of 5000 pieces of author's work",
-    "Beeple",
-    "Ethereum",
-    "Image",
-);
-mintNFT(
     "Bored Ape #8817",
     "3.4M",
     "part of the Bored Ape Yacht Club, known for its distinct appearance with a wool turtleneck and a party horn.",
     "Yuga Labs",
     "Ethereum",
     "PNG",
+);
+mintNFT(
+    "Everydays: the First 5000 Days",
+    "69.3M",
+    "a collage of 5000 pieces of author's work",
+    "Beeple",
+    "Ethereum",
+    "Image",
 );
 mintNFT(
     "CryptoPunk #3100",
